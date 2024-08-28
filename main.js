@@ -35,6 +35,7 @@ async function searchPicture(category) {
   }
 }
 
+// retrieve display picture,descriptions and urls (append to gallery)
 function displayPictures(pictures) {
   gallery.innerHTML = "";
 
@@ -50,11 +51,13 @@ function displayPictures(pictures) {
     author.textContent = `Author: ${picture.user.name}`;
 
     const description = document.createElement("p");
+    description.className = "gallery-item-description-link";
     description.textContent =
       picture.description || "No description available for this picture";
 
     const link = document.createElement("a");
     link.href = picture.links.html;
+    link.className = "gallery-link";
     link.textContent = "View picture on Unsplash";
     link.target = "_blank";
 

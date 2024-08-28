@@ -1,0 +1,33 @@
+Duration : 24 hours 
+
+We discourage use of Chatgpt, external help or malpractices. If it comes to our notice  candidate will be disqualified. 
+
+Assignment: Picture Gallery Application
+
+Objective: To evaluate a person's skills in Javascript, CSS, HTML, and API calls by creating a picture gallery application that retrieves pictures from Unsplash.com and displays them in a constant size grid.
+
+https://unsplash.com/documentation#search-photos
+
+https://unsplash.com/documentation#search-photos
+
+Instructions:
+
+Create a picture gallery application that allows users to enter a category name, such as "food" or "landscape", and retrieve relevant pictures from Unsplash.com using their API.
+
+The picture gallery should have the following features:
+
+A text input field where users can enter a category name
+A button that allows users to search for pictures based on the category name
+A grid that displays the retrieved pictures, with each picture having a constant size
+The ability to display the picture author, description, and link to the original picture on Unsplash.com
+Use Javascript to handle user interactions, such as searching for pictures and updating the UI dynamically.
+
+Use CSS to style the picture gallery and make it visually appealing. The grid should be responsive and become a single column if viewed on a mobile device.
+
+Use HTML to create the structure of the picture gallery.
+
+Test the picture gallery thoroughly to ensure that it works correctly and meets all requirements.
+
+Submit the complete picture gallery, including all source code, along with a short report explaining your approach and any challenges you faced.
+
+Note: You can use any front-end framework or library that you are comfortable with, such as React or Angular or Javascript/JQuery, but the emphasis should be on demonstrating your skills in Javascript, CSS, HTML, and API calls.

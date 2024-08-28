@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(43, 160, 232);
+    color: black;
+    font-size: 1em;
+    padding:10px 0px 10px 0px ;
+
+}
+.logo-name>a{
+text-decoration: none;
+}
+
+@media(max-width:600px){
+.navbar{
+    flex-direction: column;
+}
+}
+
+input, button{
+  padding: 5px;
+  margin: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.main{
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,2fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.gallery-item{
+  border: 1px solid black;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.gallery-item img{
+width: 100%;
+height: auto;
+}
+
+@media (max-width:600px) {
+  .gallery-container{
+    grid-template-columns: 1fr;
+  }
+}
